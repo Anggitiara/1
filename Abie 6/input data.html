@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>Latihan tag form</title>
+</head>
+<body>
+    <h1>INPUT DATA</h1>
+    <fieldset>
+<form method="" action="">
+    <P>NIM <input type="text" name="NIM" size="20" value=""></P>
+     </form>
+
+<form method="" action="">
+    <P>NAMA <input type="text" name="NAMA" size="20" value=""></P>
+</form>
+
+<form method="post" action="prosesData.php">
+    <P>JENIS KELAMIN <input type="radio" name="sex" value="L">Laki-laki
+    <input type="radio" name="sex" value="P">Perempuan</P>
+</form>
+
+<form method="" action="">
+    <P>TEMPAT LAHIR <input type="text" name="TEMPAT LAHIR" size="20" value=""></P>
+</form>
+
+<form method="post" action="prosesData.php">
+    <P>TANGGAL LAHIR <input type="date" name="Tanggal">
+</form>
+
+<form method="post" action="prosesData.php">
+    <P>JURUSAN
+    <select>
+        <option>SISTEM INFORMASI</option>
+        <option>TEKNIK INFORMATIKA</option>
+    </select>
+</form>
+
+<form method="post" action="prosesData.php">
+    ALAMAT <textarea  cols="20" rows="3"></textarea>
+</form>
+
+<form method="post" action="prosesData.php">
+    <P>PHOTO <input type="file" name="Photo">
+</form>
+
+<form method="post" action="prosesData.php">
+    <input type="submit" name="submit" value="Simpan Data">
+</form>
+
+</fieldset>
+</body>
+</html>
